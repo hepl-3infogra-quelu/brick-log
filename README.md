@@ -18,24 +18,22 @@ Simple à prendre en main, flexible et adaptable, jQuery est la boîte à outils
 
 ### La librairie jQuery
 
-Pour commencer, nous allons utiliser jQuery seul, sans plugin.
-
-Cet exercice est un peu spécial, puisque nous n'allons pas le faire ensemble : vous allez le faire seul, en utilisant toutes les ressources à votre disposition pour répondre aux demandes de l'énoncé.
+Cet exercice est un peu spécial, puisque nous n'allons pas le faire ensemble : vous allez le faire seul, en utilisant toutes les ressources à votre disposition (c'est-à-dire *le monde de l'internet tout entier*) pour répondre aux demandes de l'énoncé.
 
 Dans ce *repository*, vous avez récupéré un mini-site statique, qui représente un article de blog, et vous allez devoir dynamiser un peu le tout grâce à jQuery.
 
-Je vous ai joint la dernière version de jquery dans le dossier `/js/`.  
-Le fichier de travail se nomme `/js/script.js`.
+Je vous ai joins la dernière version de jquery dans le dossier `/js/`.  
+Le fichier de travail se nomme `/js/script.js`, il est prêt à l'emploi, il n'attend plus que votre code.
 
-## Note
-
-Cet exercice *doit* tourner sur un serveur local, puisqu'il fait appel à un petit script php.
+* * *
 
 ## Énoncé
 
+> **note:** cet exercice *doit* tourner sur un serveur local, puisqu'il fait appel à un petit script php.
+
 Il y a plusieurs choses à faire sur cette page. Les voici : 
 
-1. Il y a certains liens sur la page qui ont un attribut `rel="external"`. Ces liens doivent s'ouvrir dans une nouvelle fenêtre.
+1. Il y a certains liens sur la page qui ont un attribut `rel="external"`. Ces liens doivent s'ouvrir dans une nouvelle fenêtre (*on est d'accord, c'est pas forcément la meilleure pratique au monde, mais c'est pour l'exercice, alors zut*).
     
 2. Dans la colonne de droite, il y a 3 vignettes dans une section nommée **Trombinoscope**. Il faudrait n'afficher qu'une seule image, et faire un mini-diaporama pour changer de photo toutes les 5 secondes.
 
@@ -43,6 +41,7 @@ Il y a plusieurs choses à faire sur cette page. Les voici :
 
 4. Pour chaque commentaire, il y a un petit bouton en forme de croix. Au clic sur ce bouton, le commentaire est remplacé par un avertissement de modération, comme montré dans la page.
 
+**Allez hop ! Au boulot !**
 * * *
 
 ## Ressources credits
