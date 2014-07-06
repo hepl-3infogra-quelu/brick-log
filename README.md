@@ -24,7 +24,7 @@ Cet exercice est un peu spécial, puisque nous n'allons pas le faire ensemble : 
 
 Dans ce *repository*, vous avez récupéré un mini-site statique, qui représente un article de blog, et vous allez devoir dynamiser un peu le tout grâce à jQuery.
 
-Je vous ai joins la dernière version de jquery dans le dossier `/js/`.  
+Je vous ai joint la dernière version de jquery dans le dossier `/js/`.  
 Le fichier de travail se nomme `/js/script.js`.
 
 ## Note
@@ -42,3 +42,14 @@ Il y a plusieurs choses à faire sur cette page. Les voici :
 3. Toutes les 5 secondes, vous allez faire un appel `AJAX` vers le service situé à l'adresse `/comments.php`, qui vous fournira un nombre aléatoire de commentaires à ajouter dans la page.
 
 4. Pour chaque commentaire, il y a un petit bouton en forme de croix. Au clic sur ce bouton, le commentaire est remplacé par un avertissement de modération, comme montré dans la page.
+
+* * *
+
+## Ressources credits
+
+This educational project use some external resources : 
+
+* the stylesheet & icons are made using [bootstrap](http://getbootstrap.com)
+* the background image of the page are taken from the [awesomewallpapersblog](http://awesomewallpapersblog.com/2010/09/02/misc-wallpaper-set-23/lego-red-1440x900/)
+* the "*Outbreak*" zombie attack scene are from [Chris McVeigh](https://www.flickr.com/photos/powerpig)
+* the others little photos are from me, using [LEGO Minifigures](http://minifigures.lego.com).
