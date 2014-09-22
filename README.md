@@ -35,13 +35,14 @@ Il y a plusieurs choses à faire sur cette page. Les voici :
 
 1. Il y a certains liens sur la page qui ont un attribut `rel="external"`. Ces liens doivent s'ouvrir dans une nouvelle fenêtre (*on est d'accord, c'est pas forcément la meilleure pratique au monde, mais c'est pour l'exercice, alors zut*).
     
-2. Dans la colonne de droite, il y a 3 vignettes dans une section nommée **Trombinoscope**. Il faudrait n'afficher qu'une seule image, et faire un mini-diaporama pour changer de photo toutes les 5 secondes.
+2. Dans la colonne de droite, il y a 3 vignettes dans une section nommée **Trombinoscope**. Il faudrait n'afficher qu'une seule image, et faire un mini-diaporama pour changer de photo toutes les 3 secondes (*ouais, c'est vite, mais on s'en fout, c'est même pas un vrai blog, c'est des Lego, les gars!*).
 
-3. Toutes les 5 secondes, vous allez faire un appel `AJAX` vers le service situé à l'adresse `/comments.php`, qui vous fournira un nombre aléatoire de commentaires à ajouter dans la page.
+3. Dès le chargement, et ensuite toutes les 5 secondes, vous allez faire un appel `AJAX` vers le service situé à l'adresse `/comments.php`, qui vous fournira un nombre aléatoire de commentaires à ajouter dans la page.
 
 4. Pour chaque commentaire, il y a un petit bouton en forme de croix. Au clic sur ce bouton, le commentaire est remplacé par un avertissement de modération, comme montré dans la page.
 
 **Allez hop ! Au boulot !**
+
 * * *
 
 ## Ressources credits
@@ -51,4 +52,4 @@ This educational project use some external resources :
 * the stylesheet & icons are made using [bootstrap](http://getbootstrap.com)
 * the background image of the page are taken from the [awesomewallpapersblog](http://awesomewallpapersblog.com/2010/09/02/misc-wallpaper-set-23/lego-red-1440x900/)
 * the "*Outbreak*" zombie attack scene are from [Chris McVeigh](https://www.flickr.com/photos/powerpig)
-* the others little photos are from me, using [LEGO Minifigures](http://minifigures.lego.com).
+* the others little photos are *homemade*, using [LEGO Minifigures](http://minifigures.lego.com).
