@@ -15,7 +15,7 @@
     var _startTrombino = function() {
         var $current = $trombinoFigures.filter( ":visible" ),
             _ref,
-            $next = ( ( _ref = $trombinoFigures.eq( $current.index() ) ).size() ) ? _ref : $trombinoFigures.first();
+            $next = ( _ref = $current.next() ).size() ? _ref : $trombinoFigures.first();
             $current.fadeOut( "fast", function() {
                 $next.fadeIn( "fast" );
             } );
