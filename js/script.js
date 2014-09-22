@@ -68,7 +68,7 @@
 
         // step three
         $commentTemplate = ( $comments = $( "#comments ol" ) ).find( "li" ).first().clone();
-        _fetchComments()
+        _fetchComments();
         setInterval( _fetchComments, 5000 );
 
         // step four
